@@ -1,0 +1,11 @@
+.room_cont {
+  display: flex;
+
+  .room_text {
+    text-align: left;
+    margin-left: 20px;
+    .buttons {
+      display: flex;
+    }
+  }
+}

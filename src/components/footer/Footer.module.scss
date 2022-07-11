@@ -1,0 +1,37 @@
+.footer {
+  background-color: #3a3b3e;
+  color: #fff;
+  h3 {
+    text-decoration: underline;
+    text-align: center;
+  }
+  .footer_main {
+    margin-left: 200px;
+    .frame1 {
+      display: flex;
+
+      ul {
+        li {
+          list-style: none;
+        }
+      }
+    }
+    .frame2 {
+      display: flex;
+      justify-content: center;
+    }
+    .frame3 {
+      display: flex;
+      justify-content: space-between;
+    }
+    .frame4 {
+      display: flex;
+      justify-content: space-between;
+      .icons {
+        display: flex;
+        flex: 0.2;
+        justify-content: space-between;
+      }
+    }
+  }
+}

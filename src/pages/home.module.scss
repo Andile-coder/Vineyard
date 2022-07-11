@@ -1,0 +1,38 @@
+.location_for {
+  .location_cards {
+    display: flex;
+    border: 1px solid gray;
+    width: 60%;
+    justify-content: space-evenly;
+    margin: auto;
+  }
+}
+.home {
+  .img_section {
+    background-image: url("../Data/images/slider1.jpg");
+    height: 500px;
+  }
+  .intro_sec {
+    .intro_cont {
+      display: flex;
+      width: 60%;
+      margin: auto;
+
+      .intro_text {
+        text-align: left;
+        flex: 0.7;
+      }
+      .intro_img {
+        height: 250px;
+        img {
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+  .tasks_sec {
+    display: flex;
+    justify-content: center;
+  }
+}

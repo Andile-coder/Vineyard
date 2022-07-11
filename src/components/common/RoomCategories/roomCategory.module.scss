@@ -1,0 +1,17 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 200px;
+  img {
+    width: 100%;
+  }
+  .centered_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: #fff;
+  }
+}
